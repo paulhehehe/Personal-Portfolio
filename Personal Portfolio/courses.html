@@ -1,0 +1,67 @@
+<!-- 
+    Author: Zhicheng He
+    Student ID: 041086226
+    Section: CST8285_301
+    Professor: Shehzeen Shehzeen
+    File name: courses.html
+    Date: Jul 7, 2023
+    Description: Assignment 1 web page courses.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="courses.html">Courses</a></li>
+            </ul>
+        </nav>
+        <h1>My Courses</h1>
+    </header>
+    <main>
+        <section id="course-search">
+            <h2>Search Courses</h2>
+            <label for="search-input">Search:</label>
+            <input type="text" id="search-input" placeholder="Search for a course">
+        </section>
+
+        <section id="filter-sort">
+            <h2>Filter and Sort</h2>
+            <label for="level-filter">Filter by Level:</label>
+            <select id="level-filter">
+                <option value="">All levels</option>
+                <option value="1">Level 1</option>
+                <option value="2">Level 2</option>
+            </select>
+
+            <label for="level-sort">Sort by Level:</label>
+            <select id="level-sort">
+                <option value="asc">Lowest to Highest</option>
+                <option value="desc">Highest to Lowest</option>
+            </select>
+        </section>
+
+        <section id="course-list">
+            <h2>Course List</h2>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Zhicheng He</p>
+        </div>
+    </footer>
+
+    <script src="courses.js"></script>
+</body>
+
+</html>

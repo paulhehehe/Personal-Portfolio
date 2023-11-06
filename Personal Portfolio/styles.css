@@ -1,0 +1,145 @@
+/*
+
+Author: Zhicheng He
+Student ID: 041086226
+Section: CST8285_301
+Professor: Shehzeen Shehzeen
+File name: styles.css
+Date: Jul. 03, 2023
+Description: Assignment 01 CSS styles sheet
+
+*/
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: skyblue;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.introduction-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    margin-right: 20px;
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+}
+
+
+/* Header styles */
+header {
+    background-color: #35424a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight,
+header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+main .thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+main .course-title,
+.course-description {
+    color: #35424a;
+}
+
+/* Footer styles */
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+/* Courses styles */
+#course-search {
+    margin-bottom: 20px;
+}
+
+#filter-sort {
+    margin-top: 20px;
+}
+
+/* Courses pictures */
+.course-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.course-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.course-item .title {
+    font-weight: bold;
+}
+
+.course-item .level,
+.course-item .course-code {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.course-item .description {
+    margin-top: 5px;
+}
